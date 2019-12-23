@@ -1,6 +1,22 @@
 #include <iostream>
+using namespace std;
+
+
+string n;
+
+
+int readInput(){
+    cout << "Enter a codon: " << endl;
+    cin >> n;
+    cout << "your codon is " << n << endl;
+
+    return 0;
+}
+
+
 
 int main(){
-    printf("Hello world!");
-    return 0;
+    
+    readInput();
+    return 1;
 }
