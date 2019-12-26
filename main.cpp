@@ -2,13 +2,13 @@
 using namespace std;
 
 
-string n;
+string codon;
 
 
 int readInput(){
     cout << "Enter a codon: " << endl;
-    cin >> n;
-    cout << "your codon is " << n << endl;
+    cin >> codon;
+    cout << "your codon is " << codon << endl;
 
     return 0;
 }
@@ -16,7 +16,6 @@ int readInput(){
 
 
 int main(){
-    
     readInput();
     return 1;
 }
