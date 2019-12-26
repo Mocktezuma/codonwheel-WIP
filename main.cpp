@@ -1,13 +1,13 @@
 #include <iostream>
+#include <string>
+#include "decoder.h"
 using namespace std;
 
 
-string codon;
-
-
-int readInput(){
+int interface(string codon){
     cout << "Enter a codon: " << endl;
     cin >> codon;
+    codon = decoder(codon);
     cout << "your codon is " << codon << endl;
 
     return 0;
@@ -16,6 +16,8 @@ int readInput(){
 
 
 int main(){
-    readInput();
-    return 1;
+    interface(codon);
+
+    return 0;
+
 }
