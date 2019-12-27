@@ -17,7 +17,7 @@ int interface(){
 
 int main(){
     interface();
-
+    codontree();
     return 0;
 
 }
