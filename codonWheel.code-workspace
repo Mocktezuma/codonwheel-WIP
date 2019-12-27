@@ -3,5 +3,14 @@
 		{
 			"path": "."
 		}
-	]
+	],
+	"settings": {
+		"files.associations": {
+			"*.scss": "scss",
+			"*.html": "html",
+			"config": "ini",
+			"*.rasi": "css",
+			"iostream": "cpp"
+		}
+	}
 }

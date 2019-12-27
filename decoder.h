@@ -11,7 +11,6 @@ string decoder(string codon)
         {
         if (codon==stop[i]){
             codon = "stop";
-            cout << "your codon is :" << codon << endl;
         }
         }
     return codon;
