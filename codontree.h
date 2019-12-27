@@ -1,4 +1,5 @@
 #include <iostream>
+#include <string>
 /*
 TODO: impement tree structure to the codon
 */

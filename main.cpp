@@ -8,7 +8,7 @@ string codon;
 int interface(){
     cout << "Enter a codon: " << endl;
     cin >> codon;
-    decoder(codon);
+    codon = decoder(codon);
     cout << "your codon is : " << codon << endl;
     return 0;
 }
