@@ -13,7 +13,7 @@ string decoder(string codon)
     for(int i = 0; i<=2; ++i) // loop that looks for stop codon before looking for anything else
         if (codon==stop[i])
             codon = "stop";
-    if(codon[0] == "a")
+    if(codon[0] == codonOne[1])
         if(codon[1]==codonOne[2])
             codon = "Threonine";
     return codon;
