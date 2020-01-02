@@ -29,17 +29,6 @@ string decoder(string codon)
             codon = "Leucine";
         if(codon[1]==codonOne[3])
             codon = "Proline";
-        else
-        {
-            if (codon[2] == codonOne[1] && codonOne[3])
-                codon = "Histidine";
-            else
-            {
-                codon = "Glutamine";
-                return codon;
-            }
-            return codon;
-        }
-        
+                
     return codon;
     }
